@@ -13,16 +13,18 @@
 .colorgeneral {
     background-color: var(--colorgeneral);
 }
+.botones {
+    background-color: var(--botones);
+}
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--colorgeneral);
 }
+
 a {
     text-decoration: none;
 }
-.color {
-    background:var(--colorcuadros);
-}
+
 .naranja {
     color: var(--naranja);   
 }
