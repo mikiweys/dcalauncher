@@ -3,6 +3,7 @@
     --naranja:#DC9D47 ;
     --colorgeneral: whitesmoke;
     --botones: #FFAA00;
+    --verde: #157347;
 }
 
 *{
@@ -21,7 +22,13 @@ body {
     background: var(--colorgeneral);
 }
 .verde{
-    background-color: #00AA00;
+    background-color: var(--verde);
+}
+.hoververde:hover{
+    color: var(--verde);   
+}
+.bgverde{
+    background-color: var(--verde);
 }
 a {
     text-decoration: none;
