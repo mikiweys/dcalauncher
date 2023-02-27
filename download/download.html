@@ -17,8 +17,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link rel="stylesheet" href="css/imagehover.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="../css/imagehover.css">
+        <link rel="stylesheet" href="../css/styles.css">
         <!-- LOGO ICON -->
         <link rel="shortcut icon" href="../img/logo.jpg">
         <link rel="icon" sizes="192x192" href="img/logo.ico">
@@ -60,15 +60,40 @@
   </nav>
   </header>
 <main>
-        <div class="container mt-5 pt-5 text-center">
-          <h1 class="text-center my-5">Descarga AnDi Launcher para Minecraft</h1>
-          <h5 class="card-title py-3">Descarga el launcher</h5>
-            <p class="card-text">
-                 Haz clic en el botón de descarga para obtener AnDi Launcher para Minecraft.
-            </p>
-            <a class="btn btn-outline-success mx-2 p-3 px-5" href="archivo.exe">
-                    <i class="bi bi-download pe-1 "></i>Descargar AnDiLauncher
-            </a>
+  <div class="container mt-5 pt-5 text-center">
+    <h1 class="text-center my-5">Descarga AnDi Launcher para Minecraft</h1>
+    <h5 class="card-title py-3">Descarga el launcher</h5>
+    <p class="card-text">
+    Haz clic en el botón de descarga para obtener AnDi Launcher para Minecraft.
+    </p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success p-3" data-bs-toggle="modal" data-bs-target="#download-modal">
+  <i class="bi bi-download pe-1"></i> Descargar AnDiLauncher
+</button>
+
+<!-- Modal -->
+<div class="modal fade " id="download-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 " id="exampleModalLabel">Escoge tu plataforma</h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center py-5 d-flex">
+        <!--  -->
+        <a class="btn btn-outline-light btn-floating mx-5 rounded-circle p-5" href="archivo.exe" role="button">
+          <i class="bi bi-windows display-6"></i>
+        </a>
+        <!--  -->
+        <a class="btn btn-outline-light btn-floating mx-5 rounded-circle p-5" href="apol.exe" role="button">
+          <i class="bi bi-apple display-6"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
         </div>
 </main>
 
